@@ -1,0 +1,31 @@
+.el-footer {
+  width: 100%;
+  padding: 0;
+  border-top: 1px solid #ECEDF0;
+}
+.footer {
+  min-height: 100%;
+  margin: 0 auto;
+}
+.footer .footer-top {
+  padding: 30px 0 0;
+}
+.footer .footer-top ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.footer .footer-top ul li {
+  margin-bottom: 15px;
+}
+.footer .footer-top ul .li-top {
+  margin-bottom: 20px;
+}
+.footer .footer-bottom {
+  background-color: #414141;
+  color: #fff;
+}
+.footer .footer-bottom a {
+  color: inherit;
+  text-underline-style: none;
+}

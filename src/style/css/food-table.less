@@ -1,0 +1,48 @@
+.foot-table{
+  .table-box{
+    .table-thead{
+      background-color: #fff;
+      height:58px;
+      line-height:58px;
+      border-bottom: 1px solid #ECEFF6;
+    }
+    .table-tbody{
+      height:auto;
+      overflow: auto;
+      .table-tr{
+        .arrows-icon{
+          width:16px;
+          height:16px;
+          position:absolute;
+          left:16px;
+          top:20px;
+          .down{
+            display: block;
+          }
+          .up{
+            display: none;
+          }
+        }
+        &.active{
+          background-color: @table-color;
+          .arrows-icon{
+            .down{
+              display: none;
+            }
+            .up{
+              display: block;
+            }
+          }
+        }
+        .title{
+          width:152px;
+          overflow: hidden;
+          text-overflow:ellipsis;
+          white-space:nowrap
+        }
+      }
+
+    }
+
+  }
+}

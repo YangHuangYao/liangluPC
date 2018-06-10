@@ -1,0 +1,9 @@
+.register-container .register-title {
+  height: 150px;
+}
+.register-container .register-title .img-ground {
+  float: left;
+}
+.register-container .register-title .title-right {
+  float: right;
+}

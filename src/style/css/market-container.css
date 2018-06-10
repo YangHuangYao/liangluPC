@@ -1,0 +1,8 @@
+.market-container .market-ground {
+  overflow: hidden;
+  padding: 20px 30px;
+}
+.market-container .market-ground .market-title {
+  font-size: 22px;
+  float: left;
+}

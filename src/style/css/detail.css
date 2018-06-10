@@ -1,0 +1,11 @@
+.detail-container {
+  padding: 30px 0 90px;
+}
+.detail-container .detail-left .detail-header {
+  background-color: #fff;
+  height: 350px;
+}
+.detail-container .detail-right .detail-right-ground {
+  background-color: #fff;
+  padding: 55px;
+}

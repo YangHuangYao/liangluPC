@@ -1,0 +1,16 @@
+.advertising-container {
+  padding: 32px 0;
+}
+.advertising-container .advertising-icon {
+  width: 60px;
+  height: 60px;
+  line-height: 60px;
+  border: 1px solid #ddd;
+  border-radius: 50%;
+}
+.advertising-container .advertising-text {
+  text-align: left;
+}
+.advertising-container .advertising-text p {
+  margin: 0 0 10px;
+}

@@ -1,0 +1,40 @@
+body{margin:0;padding:0;}
+.body-bg{background-color: @body-bg}
+.pdT-30{padding-top:30px!important;}
+.pdB-30{padding-bottom:30px!important;}
+.pdRow-30{padding-bottom:30px!important;padding-top:30px!important;}
+.pdL-20{padding-left:20px!important;}
+.mgT-30{margin-top:30px!important;}
+.mgB-30{margin-bottom:30px!important;}
+.mgRow-30{margin-bottom:30px!important;margin-top:30px!important;}
+.relative{position:relative}
+.clearfix{zoom:1;/*为了兼容IE*/}
+.clearfix:after{
+  content:'';
+  height:0;
+  line-height:0;
+  display:block;
+  visibility: hidden;
+  clear: both;
+}
+#app{
+  font-family: @font-family-sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  text-align: center;
+  font-size:@font-size-base;
+  color: @text-color-base;
+  min-width:@max-width;
+  margin:40px auto 0;
+}
+.app-container-width{
+  width:@max-width;
+  margin:0 auto;
+}
+.app-container main.el-main{
+  padding:0;
+  overflow: visible;
+}
+.el-dialog__header{
+  border-bottom: 1px solid @text-color-primary;
+}

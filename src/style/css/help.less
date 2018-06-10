@@ -1,0 +1,87 @@
+.minPenalHeight{
+  min-height: 600px;
+}
+.help-center{
+  background-color: @body-bg;
+  .help-banner{
+    height:220px;
+    min-width:100%;
+    background-color: #5f98f6;
+  }
+  .help-nav-list{
+    float: left;
+    width:220px;
+    margin-right:20px;
+    .el-collapse{
+      border-bottom: 1px solid transparent;
+      .el-collapse-item{
+        margin-bottom: 20px;
+        .el-collapse-item__header{
+          height:54px;
+          border-bottom: 1px solid @body-bg;
+          position: relative;
+          font-size:16px;
+          .el-collapse-item__arrow{
+            float: none;
+            position: absolute;
+            right:25px;
+          }
+        }
+        .el-collapse-item__wrap{
+          background-color:@body-bg ;
+          .el-collapse-item__content{
+            padding-bottom: 0;
+            ul{
+              margin:0;
+              padding:0;
+              li{
+                height:55px;
+                line-height:55px;
+                background-color:#fff;
+                border-left:2px solid transparent;
+                &:hover{
+                  cursor: pointer;
+                  background-color:@body-bg;
+                  color:@text-color-primary;
+                  border-left:2px solid @text-color-primary;
+                }
+              }
+              li.router-link-exact-active{
+                cursor: pointer;
+                background-color:@body-bg!important;
+                color:@text-color-primary;
+                border-left:2px solid @text-color-primary!important;
+              }
+            }
+          }
+        }
+
+      }
+    }
+  }
+  .help-tab-main{
+    width:calc(100% - 240px);
+    float: left;
+    .tab-main-navbar{
+      height:56px;
+      padding-left:30px;
+      background-color: #fff;
+      border:1px solid @text-color-grey4;
+      margin-bottom:20px;
+      .el-breadcrumb{
+        line-height:56px;
+      }
+    }
+    .penal-container{
+      &:extend(.minPenalHeight);
+      margin-bottom:@body-margin-bottom;
+      .penal-title{
+
+      }
+      .penal-view{
+        background-color: #fff;
+        &:extend(.minPenalHeight);
+      }
+    }
+  }
+}

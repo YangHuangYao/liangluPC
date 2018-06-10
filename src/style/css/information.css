@@ -1,0 +1,21 @@
+.information-container {
+  padding: 30px 0 90px;
+}
+.information-container .left-nav {
+  background-color: #fff;
+  margin-right: 30px;
+}
+.information-container .left-nav ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+.information-container .left-nav ul li {
+  text-align: center;
+  height: 80px;
+  border-left: 2px solid transparent;
+}
+.information-container .left-nav ul li.active,
+.information-container .left-nav ul li:hover {
+  border-left: 2px solid transparent;
+}

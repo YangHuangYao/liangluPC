@@ -1,0 +1,13 @@
+.table-container {
+  overflow: hidden;
+  height: 73px;
+  line-height: 73px;
+  background-color: white;
+  margin-left: 30px;
+  margin-right: 30px;
+}
+.table-container .table-title {
+  text-align: left;
+  float: left;
+  font-size: 22px;
+}

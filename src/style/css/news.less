@@ -1,0 +1,54 @@
+.food-news{
+  height:400px;
+  overflow: hidden;
+  .news{
+    background-color: white;
+  }
+  .news-content{
+    height:50px;
+  }
+}
+.news-container{
+  padding:18px 30px 0;
+  &:hover{
+    cursor: pointer;
+    background-color: @table-color;
+    color:@text-color-primary;
+  }
+  .news-list-box{
+    padding-bottom:20px;
+    border-bottom: 1px solid #ECEFF6;
+    .img-box{
+      width:122px;
+      height:74px;
+    }
+    .news-ground{
+      text-align: left;
+      .news-title{
+        font-size: @font-size-18;
+      }
+      .news-assistant-title{
+        margin:6px 0;
+      }
+    }
+  }
+}
+.news-right-list{
+  background-color: white;
+  margin:0;
+  padding:20px 0 15px;
+  text-align: left;
+  color:@text-color-primary;
+  .right-list-box{
+    margin:0;
+    .right-list-title{
+      color:@text-color-base;
+    }
+    .right-list-time{
+      margin-top:10px;
+      margin-bottom:15px;
+      color:@text-color-grey2;
+      text-align:left;
+    }
+  }
+}

@@ -1,0 +1,16 @@
+.foot-table .table-box .table-thead {
+  background-color: #fff;
+  height: 58px;
+  line-height: 58px;
+  border-bottom: 1px solid #ECEFF6;
+}
+.foot-table .table-box .table-tbody {
+  height: auto;
+  overflow: auto;
+}
+.foot-table .table-box .table-tbody .table-tr .title {
+  width: 152px;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}

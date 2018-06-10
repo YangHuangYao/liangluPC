@@ -1,0 +1,9 @@
+.login-container .login-title {
+  height: 138px;
+}
+.login-container .banner-ground {
+  min-height: 650px;
+  width: 100%;
+  background: url("../../../static/images/banner01-zip.jpg") no-repeat;
+  background-color: #1288CE;
+}

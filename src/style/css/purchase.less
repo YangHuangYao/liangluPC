@@ -1,0 +1,168 @@
+.purchase-container{
+  padding:30px 0 90px;
+  .banner-flow-container{
+    background-color: #fff;
+    padding:30px 30px 0;
+    .banner-container{
+      .banner-title{
+        font-size:22px;
+        color:@text-color-base;
+        text-align: left;
+        padding:0;
+        margin:0 0 30px;
+      }
+      .banner-box{
+        display: -webkit-flex;
+        justify-content: space-around;
+        align-items: center;
+        .box-ground{
+          width:286px;
+          height:120px;
+          padding:24px 0;
+          position: relative;
+          border:1px solid @text-color-primary4;
+          border-radius:20px;
+          box-shadow:1px 6px 10px -5px @text-color-primary4;
+          -moz-box-shadow: 1px 6px 10px -5px @text-color-primary4;
+          -webkit-box-shadow: 1px 6px 10px -5px @text-color-primary4;
+          .icon-ground{
+            position: absolute;
+            left:10px;
+            top:10px;
+            width:30px;
+            height:30px;
+            line-height:30px;
+            text-align: center;
+            color:#fff;
+            background-color:#78A2F1;
+            border-radius: 50%;
+          }
+          .img-ground{
+            width:120px;
+            height:55px;
+            margin:0 auto;
+            background:url('/')no-repeat;
+            background-size: 100%;
+
+          }
+          .banner-text-one{
+            color:@text-color-primary2
+          }
+        }
+      }
+    }
+    .flow-container{
+      margin-top:40px;
+      .flow-title{
+        font-size:22px;
+        text-align: left;
+      }
+      .flow-box{
+        padding:30px 10px 40px;
+        display: -webkit-flex;
+        justify-content: space-between;
+        align-items: center;
+        .flow-box-container{
+          width:720px;
+          display: -webkit-flex;
+          justify-content: space-between;
+          align-items: center;
+          .flow-box-ground{
+            i{
+              display: block;
+              width:60px;
+              height:60px;
+              margin:0 auto;
+              border-radius:50%;
+              background-size:100%;
+              &.one{
+                background:url()no-repeat;
+              }
+              &.tow{
+                background:url()no-repeat;
+              }
+              &.three{
+                background:url()no-repeat;
+              }
+              &.four{
+                background:url()no-repeat;
+              }
+              &.five{
+                background:url()no-repeat;
+              }
+            }
+            span{
+              color:@text-color-grey1
+            }
+          }
+        }
+      }
+    }
+  }
+  .filter-container{
+    background-color: #fff;
+    .filter-tr{
+      height:50px;
+      line-height:50px;
+      border-bottom:1px solid @text-color-grey7;
+      .filter-tr-box{
+        .title{
+          color:@text-color-grey5;
+          font-style: inherit;
+        }
+        span{
+          cursor: pointer;
+          &:hover{
+            color:@text-color-primary;
+          }
+          &.active{
+            color:@text-color-primary;
+          }
+        }
+      }
+
+    }
+  }
+  .food-table-container{
+
+    .food-table-thead{
+      display: -webkit-flex;
+      justify-content: space-between;
+      padding-right:50px;
+      .thead-th-box{
+        display: -webkit-flex;
+        justify-content: flex-start;
+        .thead-th{
+          width:216px;
+          height:43px;
+          line-height:43px;
+          background-color: @text-color-grey6;
+          border-left:1px solid @body-bg;
+          border-top:2px solid transparent;
+          cursor: pointer;
+          &.active,&:hover{
+            border-top-left-radius:6px;
+            border-top:2px solid @text-color-primary;
+            background-color:#fff;
+            color:@text-color-primary;
+          }
+        }
+        .th-first{
+          border-left:none;
+        }
+      }
+      .thead-right{
+        height:43px;
+        line-height:43px;
+        span{
+          font-size: 18px;
+          color:@text-color-primary
+        }
+      }
+    }
+  }
+  .pagination-container{
+    background-color: #fff;
+    padding:30px 0;
+  }
+}

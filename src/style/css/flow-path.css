@@ -1,0 +1,13 @@
+.flow-path {
+  padding: 20px;
+}
+.flow-path .flow-path-ground {
+  padding-bottom: 33px;
+  border-bottom: 1px solid #ECEFF6;
+}
+.flow-path .flow-path-ground .flow-path-title {
+  margin-top: 24px;
+  margin-bottom: 40px;
+  font-size: 22px;
+  color: #377EF4;
+}

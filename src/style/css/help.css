@@ -1,0 +1,12 @@
+.help-center .help-banner {
+  height: 220px;
+  min-width: 100%;
+  background-color: #5f98f6;
+}
+.help-center .help-nav-list {
+  float: left;
+  width: 220px;
+}
+.help-center .help-tab-main {
+  float: left;
+}
